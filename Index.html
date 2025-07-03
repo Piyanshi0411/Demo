@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Color.css">
+    <style>
+        .pink-btn{
+            background: #FF5672;
+            padding: 10px 20px;
+            width: 195px;
+            color: white;
+            font-size: 19px;
+            font-weight: 700;
+            border-radius: 9px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+    </style>
+    <title>Knight Bite</title>
+</head>
+<body>
+    <div class="appbar">
+<div class="logo "></div>
+<input type="checkbox" onchange="toggleNavIcon()" id="nav-icon"/>
+<nav class="nav">
+    <ul>
+        <li class="link selector">Home
+<div class="indicator"></div>
+    </li>
+    <a href="https://knight-bite.com/pages/about.html">About</a>
+    <a href="https://knight-bite.com/pages/menu.html">Menu</a>
+    <a href="https://knight-bite.com/pages/franchise.html">Franchise</a>
+    <li><button class="download-btn"oneclick="window.location='http:\/\/bit.ly/KnightBite'">Download App</button>
+    </li>
+</ul>
+</nav>
+<div class="nav-icon">
+<label for="nav-icon">
+<div class="icon"></div>
+</label>
+</div>
+</div>
+<!--main content-->
+<div class="content">
+ <div class="app-link">
+<h3>DELICIOUNESS,ONE CLICK AWAY</h3>
+<div class="button-container">
+<a href="https://order.knight-bite.com" target="_blank" class="apply-link" style="margin-bottom: 25px">
+<button  class="pink-btn">Order on Web</button>
+</a>
+<h3 style="color: white;font-weight: 600;margin: 10px 0;">Or</h3>
+<div class="store">
+<a href="https://apps.apple.com/in/app/knight-bite-food-delivery-app/id1387840512">
+<div class="ios-store"></div>
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.axndxsoftwarehub.knightbite&hl=en">
+<div class="android-store"></div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="features">
+<h1 class="feature-header">Features</h1>
+<div class="feature-grid">
+ <div class="feature-container">
+    <img src="feature-1.svg">
+    <div class="feature describe">
+"Late Night Delivery
+<br>Till 4 am"
+</div>
+ </div> 
+ <div class="feature-container">
+    <img src="feature-2.svg" >
+    <div class="feature  describe">
+        "Call on app <br>Call 080-4710607"
+    </div>
+ </div>
+ <div class=" feature-container">
+    <img src="feature-3.svg">
+    <div class="feature describe">
+        "Food for every kind of hunger"
+    </div>
+ </div>
+ <div class="feature-container">
+    <img src="feature-4.svg" >
+    <div class="feature describe">
+        "Food for Every Kind <br>Of Hunger"
+    </div>
+ </div>
+<div class="feature-container">
+<img src="feature-5.svg" >
+<div class="feature describe" >
+    "Place bulk orders through app"
+</div>
+</div>
+   </div>
+   <div class=" Banner1">
+<h3 id="banner1-head">Enjoy food enjoy life</h3>
+   </div>
+   <div class="banner2">
+    <div class="psuedo-space" style="margin-bottom: auto;"></div>
+<h3 id="banner2-head">Burger,fries,shakes and many more</h3>
+<button onclick="window.location.href = 'pages/menu.html'" class="menu-btn">See full Menu</button>
+   </div>
+   <!--footer-->
+   <div class="footer">
+  <h1>Connect with us</h1>
+   <div class="details">
+    <div class="items">
+        <h3>Contact us</h3>
+        <div style="display: flex;margin-bottom: 40px;">
+            <div class="footer-mail"></div>
+            <span>info@knight-bite.com</span>
+        </div>
+        <div style="display: flex;align-items: flex-end;"> <div class="phone-footer"></div>
+        <span>+91 8047106107</span>
+    </div>
+    <span style="font-size: 16px;font-weight: 300;margin-left: 50px;margin-top: 10px;">Available from <br>7pm to 4am </span>
+        </div>
+        <div class="items">
+            <h3>Quick Links</h3>
+            <ul>
+     <li class="footer-link" onclick="openLink(`https:/\/knight-bite.com/policies`)">
+                    Delivery Policies
+                </li>
+                <li class="footer-link"onclick="openLink(`https:/\/knight-bite.com/policies`)">
+                    Privacy Policy
+                    </li>
+                    <li>
+                        "Careers(Coming Soon)"
+                    </li>
+                    <li class="footer-link"onclick="openLink('pages/franchise.html')">
+            
+                        Franchise
+                    </li>
+            </ul>
+        </div>
+        <div class="item">
+            <p style="width: 100%;line-height: 2em;text-align: start;">"Enter your email adress below to be the first to know everything  about us,where we'll be next,and how you can come along!"<br>
+            "Join us on our adventure"
+        </p>
+        <div class="email-container">
+            <input  class="email-field"type="text"placeholder="Enter your email address">
+            <button class="email-btn"onclick="submitEmail()"></button>
+        </div>
+        <p style="margin: 18px 0;color: #FF5672;font-size: 15px;"class="dnone"id="sucess-msg">
+            "Your request has een sent.Thank you for showing interest!"
+        </p>
+    </div>
+<div class="item">
+<h3>Head Office</h3>
+<p style="font-weight: 300;">"1st Floor, No 20-1-7/10, Regal Square Azizuddin Road, Bunder Mangalore, Bunder, Mangaluru,Dakshina Kannada, Karnataka, 575001"
+</p>
+</div>
+<div class="item">
+    <h3>Location</h3>
+    <ul>
+        <li style="font-weight: 300;">
+            "Bengaluru,Mangalore,Mysuru,Hydrabad,Hubli,Manipal,Udupi"
+        </li>
+    </ul>
+</div>
+<div class="item"> 
+    <h3>Follow us</h3>
+    <div style="display: flex;"class="Profile-tags">
+        <a href="https://www.instagram.com/knight_bite/">
+            <img src="instagram.svg" style="margin-right: 40px;">
+        </a>
+        <a href="https://m.facebook.com/knightbiteIndia/">
+        <img src="facebook.svg" style="margin-right: 40px;">
+        </a>
+        <a href="https://mobile.twitter.com/knight_bite">
+            
+        </a>
+        <a href="https://lu.linkedin.com/company/knightbite">
+            <img src="linkedin.svg" style="margin-right: 40px">
+        </a>
+    </div>
+</div>
+</div>
+<div style="display: flex;justify-content: center;margin: 50px 0;"class="logo-footer">
+    <img src="brand_logo-1_footer.svg" style="margin-right: 40px;">
+    <img width="40" src="kb_footer.png">
+</div>
+<div class="copyright">
+    <p>"Copyright"
+        <span class="year"2025></span>
+        "Knight Bite Foods Pvt.ltd.All Right Reserved"
+    </p>
+</div>
+   </div>
+   <div class="mask" onclick="closeDialog()">
+ </div>
+ </body>
+</html>
